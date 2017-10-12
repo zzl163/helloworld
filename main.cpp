@@ -10,5 +10,6 @@ int main(int argc, char *argv[])
     //QLabel label("hello world!");
     //label.show();
     //insert one line to test git!
+    //test branch dev.
     return a.exec();
 }
