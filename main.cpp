@@ -9,5 +9,6 @@ int main(int argc, char *argv[])
     w.show();
     //QLabel label("hello world!");
     //label.show();
+    //insert one line to test git!
     return a.exec();
 }
