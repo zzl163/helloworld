@@ -28,7 +28,9 @@ SOURCES += \
         widget.cpp
 
 HEADERS += \
-        widget.h
+        widget.h \
+    newspaper.h \
+    reader.h
 
 FORMS += \
         widget.ui

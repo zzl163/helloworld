@@ -13,6 +13,7 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QGraphicsView>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
@@ -23,15 +24,20 @@ class Ui_Widget
 {
 public:
     QPushButton *pushButton;
+    QGraphicsView *graphicsView;
 
     void setupUi(QWidget *Widget)
     {
         if (Widget->objectName().isEmpty())
             Widget->setObjectName(QStringLiteral("Widget"));
         Widget->resize(400, 300);
+        Widget->setAutoFillBackground(true);
         pushButton = new QPushButton(Widget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(160, 220, 75, 23));
+        graphicsView = new QGraphicsView(Widget);
+        graphicsView->setObjectName(QStringLiteral("graphicsView"));
+        graphicsView->setGeometry(QRect(40, 10, 321, 191));
 
         retranslateUi(Widget);
 
@@ -40,7 +46,7 @@ public:
 
     void retranslateUi(QWidget *Widget)
     {
-        Widget->setWindowTitle(QApplication::translate("Widget", "Widget", Q_NULLPTR));
+        Widget->setWindowTitle(QApplication::translate("Widget", "Helloworld", Q_NULLPTR));
         pushButton->setText(QApplication::translate("Widget", "PushButton", Q_NULLPTR));
     } // retranslateUi
 
