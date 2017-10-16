@@ -1,8 +1,6 @@
 #ifndef NEWSPAPER_H
 #define NEWSPAPER_H
 
-#endif // NEWSPAPER_H
-
 #include<QObject>
 
 class Newspaper:public QObject
@@ -23,3 +21,4 @@ signals:
 private:
     QString m_name;
 };
+#endif // NEWSPAPER_H

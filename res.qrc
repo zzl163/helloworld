@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="doc-test">res/0.ico</file>
+    </qresource>
+</RCC>
