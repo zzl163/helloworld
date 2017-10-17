@@ -39,3 +39,6 @@ FORMS += \
 
 RESOURCES += \
     res.qrc
+
+#CONFIG +=console
+#使用qDebug()函数输出时需要开启该配置选项

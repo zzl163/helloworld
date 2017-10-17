@@ -4,6 +4,7 @@
 #include<QSpinBox>
 #include<QSlider>
 #include<QHBoxLayout>
+#include<QMessageBox>
 #include"newspaper.h"
 #include"reader.h"
 #include"mainwindow.h"
@@ -42,5 +43,6 @@ int main(int argc, char *argv[])
 
     MainWindow win;
     win.show();
+    //messageboxtest();
     return app.exec();
 }

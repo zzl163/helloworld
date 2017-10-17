@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/images">
-        <file alias="doc-test">res/0.ico</file>
+        <file alias="doc-open">res/doc/f1.png</file>
+        <file alias="doc-save">res/save/f8.png</file>
     </qresource>
 </RCC>
